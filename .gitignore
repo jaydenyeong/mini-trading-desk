@@ -1,0 +1,24 @@
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Java
+backend/target/
+
+# Node
+node_modules/
+frontend/dist/
+tests-e2e/playwright-report/
+tests-e2e/test-results/
+
+# Python
+feed/.venv/
+__pycache__/
+
+# Secrets and local files
+.env
+*.hprof
+cookies*.txt
+logs/
+docs/
